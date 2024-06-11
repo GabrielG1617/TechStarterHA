@@ -1,0 +1,27 @@
+.apartment-card {
+    display: flex;
+    border: 1px solid #ddd;
+    margin: 1em;
+    padding: 1em;
+    width: 80%;
+    background-color: #fff;
+}
+
+.apartment-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.details {
+    margin-left: 1em;
+    text-align: left;
+}
+
+.details h2 {
+    margin-top: 0;
+}
+
+.details button {
+    padding: 0.5em 1em;
+}
